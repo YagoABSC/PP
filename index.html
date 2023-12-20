@@ -3,16 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Home</title>
+    <style>
+        #pedreiro{
+            background-color: orange;
+            color: white;
+        }
+
+        #contratante{
+            background-color: darkgray;
+            color: lightgray;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>O começo de tudo.</h1>
+        <h1>Portal Pedreiro</h1>
         <nav>
-            
+           <ul>
+            <li>Sobre Nós</li>
+            <li>Parceiros</li>
+            <li>Contatos</li>
+            <li>Minha Conta</li>
+           </ul> 
         </nav>
     </header>
     <main>
+        <table>
+            <tr>
+                <th id="pedreiro">Sou Pedreiro</th>
+                <th id="contratante">Sou Contratante</th>
+            </tr>
+        </table>
+
+        <h3>Acessar minha conta</h3>
+
+        <form>
+            <input type="text" placeholder="Digite seu CPF">
+            <input type="text" placeholder="Digite sua senha">
+
+            <p>Esqueceu sua senha? <strong>Clique Aqui</strong></p>
+
+            <button>Entrar</button>
+
+            <p>Não possui conta? <a href="">Cadastre-se</a></p>
+        </form>
+
+        <p>No PP você encontra o pedreiro certo para a sua reforma. E ele pode estar a um clique de você!</p>
+
 
     </main>
     <footer>
